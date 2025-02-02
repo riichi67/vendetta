@@ -50,7 +50,9 @@
     "TEXT_MUTED": [ "#6c6f85", "#6c6f85" ],
     "TEXT_NORMAL": [ "#4c4f69", "#4c4f69" ],
     "TEXT_PRIMARY": [ "#4c4f69", "#4c4f69" ],
-    "THREAD_CHANNEL_SPINE": [ "#acb0be", "#acb0be" ]
+    "THREAD_CHANNEL_SPINE": [ "#acb0be", "#acb0be" ],
+    "SPOILER_HIDDEN_BACKGROUND": [ "#acb0be", "#acb0be" ],
+    "SPOILER_REVEALED_BACKGROUND": [ "#acb0be40", "#acb0be40" ]
   },
   "rawColors": {
     "BRAND_260": "#9ca0b0",
@@ -190,7 +192,11 @@
     "YELLOW_860": "#df8e1d",
     "YELLOW_900": "#df8e1d",
     "WHITE": "#eff1f5",
-    "WHITE_500": "#eff1f5"
+    "WHITE_500": "#eff1f5",
+    "CHAT_MENTIONS_BACKGROUND_DARK": "#dd78784d",
+    "CHAT_MENTIONS_BACKGROUND_LIGHT": "#dd78784d",
+    "CHAT_MENTIONS_FOREGROUND_DARK": "#dd7878",
+    "CHAT_MENTIONS_FOREGROUND_LIGHT": "#dd7878"
   },
   "plus":{
     "version":"0",

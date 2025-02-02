@@ -63,7 +63,9 @@ whiskers:
     "TEXT_MUTED": [ "{{ subtext0.hex }}", "{{ subtext0.hex }}" ],
     "TEXT_NORMAL": [ "{{ text.hex }}", "{{ text.hex }}" ],
     "TEXT_PRIMARY": [ "{{ text.hex }}", "{{ text.hex }}" ],
-    "THREAD_CHANNEL_SPINE": [ "{{ surface2.hex }}", "{{ surface2.hex }}" ]
+    "THREAD_CHANNEL_SPINE": [ "{{ surface2.hex }}", "{{ surface2.hex }}" ],
+    "SPOILER_HIDDEN_BACKGROUND": [ "{{ surface2.hex }}", "{{ surface2.hex }}" ],
+    "SPOILER_REVEALED_BACKGROUND": [ "{{ surface2.hex }}40", "{{ surface2.hex }}40" ]
   },
   "rawColors": {
     "BRAND_260": "{{ overlay0.hex }}",
@@ -203,7 +205,11 @@ whiskers:
     "YELLOW_860": "{{ yellow.hex }}",
     "YELLOW_900": "{{ yellow.hex }}",
     "WHITE": "{{ base.hex }}",
-    "WHITE_500": "{{ base.hex }}"
+    "WHITE_500": "{{ base.hex }}",
+    "CHAT_MENTIONS_BACKGROUND_DARK": "{{ accent.hex }}4d", {#- Purely native strings, Colours @mention on Android #}
+    "CHAT_MENTIONS_BACKGROUND_LIGHT": "{{ accent.hex }}4d",
+    "CHAT_MENTIONS_FOREGROUND_DARK": "{{ accent.hex }}",
+    "CHAT_MENTIONS_FOREGROUND_LIGHT": "{{ accent.hex }}"
   },
   "plus":{
     "version":"0",
